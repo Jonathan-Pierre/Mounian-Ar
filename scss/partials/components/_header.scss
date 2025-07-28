@@ -6,17 +6,17 @@
     font-size: 2rem;
     font-weight: 500;
     margin-right: 2rem;
-    color: #fff;
+    color: blue;
     transition: color 0.2s;
     
     &:hover {
-      color: rgb(253, 179, 191);
+      color: rgb(232, 26, 26);
     }
   }
 
   .navbar-nav {
     .nav-link {
-      color: #fff;
+      color: blue;
       transition: color 0.2s;
 
       &.active {
@@ -31,7 +31,7 @@
   }
 
   .dropdown-toggle {
-    color: #fff;
+    color:blue;
     }
 
   .navbar-svg {
@@ -40,7 +40,7 @@
     transition: background-color 0.2s;
 
     &:hover {
-      background-color: green;
+      background-color: blue;
     }
   }
 }
@@ -69,7 +69,7 @@
 
 .btn-search {
   background: #fff;
-  color: #222;
+  color: rgb(163, 236, 130);
   border: 1px solid #eee;
   margin-left: 10px;
   transition: background 0.2s, color 0.2s, border-color 0.2s;

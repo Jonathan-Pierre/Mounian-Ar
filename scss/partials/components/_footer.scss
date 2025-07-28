@@ -1,6 +1,8 @@
+@use "../utilities/variables";
 
 .p-footer {
-    color:rgb(9, 10, 10);
-    font-size: 8px;
-    list-style: circle;
+    color: variables.$f-gray;
+    font-size: 20px;
+    text-align: center;
+   
 }
