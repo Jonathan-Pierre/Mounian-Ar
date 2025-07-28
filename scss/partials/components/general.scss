@@ -1,0 +1,72 @@
+@use "../utilities/variables.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f6f6f6;
+  color: variables.$pure-black ;
+}
+.container {
+  max-width: 800px;
+  margin: 60px auto;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  padding: 32px;
+}
+
+
+h1, h2, h3, h4 {
+  color: #2b62d6;
+}
+
+.p-aboutus {
+  color: black;
+  font-size: variables.$p-size;
+}
+
+.contact-section {
+  form {
+    label {
+      display: block;
+      margin-bottom: 12px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      margin-bottom: 14px;
+      font-size: 1em;
+    }
+    button {
+      background: #2b62d6;
+      color: #fff;
+      border: none;
+      padding: 10px 22px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.2s;
+
+      &:hover {
+        background: #194b9c;
+      }
+    }
+  }
+}
+
+.gallery-section {
+  img {
+    width: 120px;
+    margin: 6px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+  }
+}
+
+.events-section {
+  ul {
+    padding-left: 20px;
+  }
+}
+
