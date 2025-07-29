@@ -1,10 +1,10 @@
-@use "../utilities/variables.scss";
+@use "../utilities/variables";
 
 body {
   margin: 0;
   padding: 0;
-  background: #f6f6f6;
-  color: variables.$pure-black ;
+  background:blue;
+  color:black;
 }
 .container {
   max-width: 800px;
@@ -17,12 +17,12 @@ body {
 
 
 h1, h2, h3, h4 {
-  color: #2b62d6;
+  color: variables.$title-color;
 }
 
 .p-aboutus {
   color: black;
-  font-size: 23px;
+  font-size: variables.$p-size;
 }
 
 .contact-section {
