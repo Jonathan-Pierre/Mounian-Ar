@@ -28,21 +28,33 @@ li {
 }
 
 .navbar {
-  background: rgb(183, 183, 196);
+  background: rgb(91, 1, 91);
   list-style: none;
 }
 .navbar .navbar-brand {
   font-size: 2rem;
   font-weight: 500;
   margin-right: 2rem;
-  color: #3c1eea;
+  color: rgb(91, 1, 91);
   transition: color 0.2s;
 }
 .navbar .navbar-brand:hover {
-  color: rgb(235, 81, 212);
+  color: rgb(245, 182, 24);
+}
+.navbar .navbar-brand:hover:hover {
+  transform: scale(0.9);
+}
+.navbar img {
+  width: 3%;
+  height: 3%;
+  transition: 0.5s;
+  object-fit: cover;
+}
+.navbar img:hover {
+  transform: scale(1.5);
 }
 .navbar .navbar-nav .nav-link {
-  color: #4812dc;
+  color: rgb(91, 1, 91);
   transition: color 0.2s;
 }
 .navbar .navbar-nav .nav-link.active {
@@ -50,18 +62,16 @@ li {
   opacity: 1;
 }
 .navbar .navbar-nav .nav-link:hover {
-  color: rgb(244, 81, 193);
+  color: rgb(245, 182, 24);
+}
+.navbar .navbar-nav .nav-link:hover:hover {
+  transform: scale(0.9);
 }
 .navbar .dropdown-toggle {
-  color: #050101;
+  color: rgb(91, 1, 91);
 }
-.navbar .navbar-svg {
-  width: 30px;
-  height: 30px;
-  transition: background-color 0.2s;
-}
-.navbar .navbar-svg:hover {
-  background-color: green;
+.navbar .dropdown-toggle:hover {
+  color: rgb(245, 182, 24);
 }
 
 .dropdown-menu {
@@ -70,55 +80,67 @@ li {
   border: 1px solid #eee;
 }
 .dropdown-menu .dropdown-item {
-  color: #222;
+  color: rgb(91, 1, 91);
   transition: background 0.2s, color 0.2s;
 }
 .dropdown-menu .dropdown-item:hover {
-  background: #e6e8ff;
-  color: #4746ff;
+  background: #000000;
+  color: goldenrod;
 }
 
 .form-control {
-  background: #fff;
-  color: #222;
-  border: 1px solid #eee;
+  background: rgb(243, 233, 213);
+  color: rgb(91, 1, 91);
+  border: 1px solid white;
 }
 
 .btn-search {
-  background: #fff;
-  color: #222;
-  border: 1px solid #eee;
+  background: rgb(91, 1, 91);
+  color: white;
+  border: 1px solid white;
   margin-left: 10px;
   transition: background 0.2s, color 0.2s, border-color 0.2s;
 }
 .btn-search:hover {
-  background: #010110;
-  color: #fff;
-  border-color: #4746ff;
+  background: goldenrod;
+  color: white;
+  border-color: rgb(91, 1, 91);
 }
 
 body {
   margin: 0;
   padding: 0;
-  background: blue;
+  background: rgb(109, 7, 132);
   color: black;
 }
 
 .container {
   max-width: 800px;
   margin: 60px auto;
-  background: #fff;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 12px;
+  background: rgb(236, 220, 198);
+  box-shadow: 10 15px 8px rgba(160, 48, 48, 0.1);
+  border-radius: 6px;
   padding: 32px;
 }
 
-h1, h2, h3, h4 {
-  color: #2b62d6;
+.button2 {
+  background: rgb(71, 1, 71);
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.button2:hover {
+  background: goldenrod;
+}
+
+h1, h2, h3, h4, h5 {
+  color: rgb(112, 2, 112);
 }
 
 .p-aboutus {
-  color: black;
+  color: #000000;
   font-size: 16px;
 }
 
@@ -129,14 +151,14 @@ h1, h2, h3, h4 {
 .contact-section form input, .contact-section form textarea {
   width: 100%;
   padding: 12px;
-  border-radius: 4px;
-  border: 1px solid #ccc;
+  border-radius: 6px;
+  border: 1px solid rgb(104, 3, 104);
   margin-bottom: 14px;
   font-size: 1em;
 }
 .contact-section form button {
-  background: #2b62d6;
-  color: #fff;
+  background: rgb(104, 3, 104);
+  color: white;
   border: none;
   padding: 10px 22px;
   border-radius: 6px;
@@ -144,7 +166,7 @@ h1, h2, h3, h4 {
   transition: background 0.2s;
 }
 .contact-section form button:hover {
-  background: #194b9c;
+  background: goldenrod;
 }
 
 .gallery-section img {
@@ -159,7 +181,7 @@ h1, h2, h3, h4 {
 }
 
 .p-footer {
-  color: #BABABA;
+  color: rgb(254, 216, 254);
   font-size: 20px;
   text-align: center;
 }
