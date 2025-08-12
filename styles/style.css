@@ -46,13 +46,6 @@ li {
 }
 .navbar img {
   width: 3%;
-  height: 3%;
-  transition: 0.5s;
-  object-fit: cover;
-}
-.navbar img .img-1 {
-  width: 3%;
-  height: 3%;
   transition: 0.5s;
   object-fit: cover;
 }
@@ -61,7 +54,7 @@ li {
 }
 .navbar .navbar-nav .nav-link {
   color: rgb(91, 1, 91);
-  transition: color 0.2s;
+  transition: color 0.3s;
 }
 .navbar .navbar-nav .nav-link.active {
   font-weight: 700;
@@ -187,9 +180,23 @@ h1, h2, h3, h4, h5 {
 }
 
 .p-footer {
-  color: rgb(254, 216, 254);
-  font-size: 20px;
+  background-color: rgb(251, 230, 191);
+  color: rgb(95, 3, 95);
+  font-size: 16px;
   text-align: center;
+  padding: 20px 0;
+  border-radius: 25px;
+  bottom: 0;
+  width: 100;
+}
+
+img {
+  width: 3%;
+  transition: 0.5s;
+  object-fit: cover;
+}
+img:hover {
+  transform: scale(1.5);
 }
 
 /*# sourceMappingURL=style.css.map */

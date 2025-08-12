@@ -2,7 +2,7 @@
 .navbar {
   background: rgb(91, 1, 91);
   list-style: none;
-   
+  
   .navbar-brand {
     font-size: 2rem;
     font-weight: 500;
@@ -20,15 +20,10 @@
 
   img {
   width: 3%;
-  height: 3%;
   transition: 0.5s;
   object-fit: cover;
-  .img-1{
-    width: 3%;
-  height: 3%;
-  transition: 0.5s;
-  object-fit: cover;
-  }
+  
+
   
   &:hover {
     transform: scale(1.5);
@@ -39,7 +34,7 @@
   .navbar-nav {
     .nav-link {
       color: rgb(91, 1, 91);
-      transition: color 0.2s;
+      transition: color 0.3s;
 
       &.active {
         font-weight: 700;

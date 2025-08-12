@@ -1,8 +1,26 @@
 @use "../utilities/variables";
 
 .p-footer {
-    color: rgb(254, 216, 254);
-    font-size: 20px;
+    
+    background-color:rgb(251, 230, 191);
+    color: rgb(95, 3, 95);
+    font-size: 16px;
     text-align: center;
+    padding: 20px 0;
+    border-radius: 25px;
+    bottom: 0;
+    width: 100;
+
    
+}
+
+img {
+  width: 3%;
+  transition: 0.5s;
+  object-fit: cover;
+  
+  &:hover {
+    transform: scale(1.5);
+  }
+
 }
