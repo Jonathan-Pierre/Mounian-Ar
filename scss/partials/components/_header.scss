@@ -1,6 +1,7 @@
 @use "../utilities/variables";
+
 .navbar {
-  background: rgb(91, 1, 91);
+  background: rgb(3, 10, 132);
   list-style: none;
   
   .navbar-brand {
@@ -11,7 +12,7 @@
     transition: color 0.2s;
     
     &:hover {
-      color: rgb(245, 182, 24);
+      color: rgb(3, 10, 132);
     &:hover {
     transform: scale(.9);
   }
@@ -22,10 +23,7 @@
   width: 3%;
   transition: 0.5s;
   object-fit: cover;
-  
-
-  
-  &:hover {
+   &:hover {
     transform: scale(1.5);
   }
 
@@ -33,7 +31,7 @@
 
   .navbar-nav {
     .nav-link {
-      color: rgb(91, 1, 91);
+      color:rgb(3, 10, 132);
       transition: color 0.3s;
 
       &.active {
@@ -42,7 +40,7 @@
       }
 
       &:hover {
-       color: rgb(245, 182, 24);
+       color: variables.$hover-color;
        &:hover {
       transform: scale(.9);
   }
@@ -51,45 +49,45 @@
   }
 
   .dropdown-toggle {
-    color: rgb(91, 1, 91);
+    color: rgb(3, 10, 132);
   &:hover {
-    color: rgb(245, 182, 24);
+    color: variables.$hover-color;
   } }
 
 }
 
 .dropdown-menu {
-  background: #fff;
-  color: #222;
+    background: #fff;
+  color: rgb(3, 10, 132);
   border: 1px solid #eee;
 
   .dropdown-item {
-    color: rgb(91, 1, 91);
+    color: rgb(3, 10, 132);
     transition: background 0.2s, color 0.2s;
 
     &:hover {
-      background: variables.$pure-black;
-      color: goldenrod;
+      background: rgb(3, 10, 132);
+      color: variables.$hover-color;
     }
   }
 }
 
 .form-control {
   background:rgb(243, 233, 213);
-  color:rgb(91, 1, 91);
+  color:rgb(3, 10, 132);
   border: 1px solid white;
 }
 
 .btn-search {
-  background: rgb(91, 1, 91);
+  background: rgb(3, 10, 132);
   color: white;
   border: 1px solid white;
   margin-left: 10px;
   transition: background 0.2s, color 0.2s, border-color 0.2s;
 
   &:hover {
-    background:goldenrod ;
+    background: variables.$hover-color ;
     color: white;
-    border-color: rgb(91, 1, 91);
+    border-color: rgb(3, 10, 132);
   }
 }

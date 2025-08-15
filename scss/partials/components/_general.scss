@@ -1,23 +1,26 @@
 @use "../utilities/variables";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+/*font-family: "Nunito", sans-serif;*/
 
 body {
   margin: 00;
   padding: 00;
-  background:rgb(109, 7, 132);
+  background:rgb(3, 10, 132);
   color:black;
+  font-family:"Nunito", sans-serif;
 }
 
 .container {
   max-width: 800px;
   margin: 60px auto;
-  background:rgb(236, 220, 198);
+  background:white;
   box-shadow: 10 15px 8px rgba(160, 48, 48, 0.1);
   border-radius: 6px;
   padding: 32px;
 }
 
 .button2{
-  background: rgb(71, 1, 71);
+  background: rgb(3, 10, 132);
   color: white;
   border: none;
   padding: 10px 22px;
@@ -25,13 +28,28 @@ body {
   cursor: pointer;
 
   &:hover {
-  background: goldenrod;
+  background: variables.$hover-color;
    }
   
 }
 
-h1, h2, h3, h4, h5 {
-  color: variables.$title-color;}
+h1, h2, h3, h4 {
+  color: variables.$title-color;
+  &:hover {
+    background-color: variables.$hover-color;
+  }
+}
+
+.title-five{
+  color: rgb(244, 177, 7);
+  &:hover {
+    background-color: rgb(3, 10, 132);
+  }
+}
+.contact-link {
+  color: rgb(3, 10, 132);
+
+}
 
 
 .p-aboutus {
@@ -49,12 +67,12 @@ h1, h2, h3, h4, h5 {
       width: 100%;
       padding: 12px;
       border-radius: 6px;
-      border: 1px solid rgb(104, 3, 104);
+      border: 1px solid rgb(3, 10, 132);
       margin-bottom: 14px;
       font-size: 1em;
     }
     button {
-      background: rgb(104, 3, 104);
+      background: rgb(3, 10, 132);
       color: white;
       border: none;
       padding: 10px 22px;
@@ -63,7 +81,7 @@ h1, h2, h3, h4, h5 {
       transition: background 0.2s;
 
       &:hover {
-        background: goldenrod;
+        background: variables.$hover-color;
       }
     }
   }
@@ -74,7 +92,7 @@ h1, h2, h3, h4, h5 {
     width: 120px;
     margin: 6px;
     border-radius: 8px;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+    box-shadow: 0 1px 4px rgb(3, 10, 132);
   }
 }
 
@@ -83,4 +101,3 @@ h1, h2, h3, h4, h5 {
     padding-left: 20px;
   }
 }
-

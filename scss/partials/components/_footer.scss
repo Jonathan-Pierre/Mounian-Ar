@@ -2,25 +2,11 @@
 
 .p-footer {
     
-    background-color:rgb(251, 230, 191);
-    color: rgb(95, 3, 95);
+  background-color:rgb(3, 10, 132);
+    color: goldenrod;
     font-size: 16px;
     text-align: center;
     padding: 20px 0;
     border-radius: 25px;
     bottom: 0;
-    width: 100;
-
-   
-}
-
-img {
-  width: 3%;
-  transition: 0.5s;
-  object-fit: cover;
-  
-  &:hover {
-    transform: scale(1.5);
-  }
-
-}
+    width: 100;}

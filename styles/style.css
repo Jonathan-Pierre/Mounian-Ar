@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -28,7 +29,7 @@ li {
 }
 
 .navbar {
-  background: rgb(91, 1, 91);
+  background: rgb(3, 10, 132);
   list-style: none;
 }
 .navbar .navbar-brand {
@@ -39,7 +40,7 @@ li {
   transition: color 0.2s;
 }
 .navbar .navbar-brand:hover {
-  color: rgb(245, 182, 24);
+  color: rgb(3, 10, 132);
 }
 .navbar .navbar-brand:hover:hover {
   transform: scale(0.9);
@@ -53,7 +54,7 @@ li {
   transform: scale(1.5);
 }
 .navbar .navbar-nav .nav-link {
-  color: rgb(91, 1, 91);
+  color: rgb(3, 10, 132);
   transition: color 0.3s;
 }
 .navbar .navbar-nav .nav-link.active {
@@ -61,69 +62,71 @@ li {
   opacity: 1;
 }
 .navbar .navbar-nav .nav-link:hover {
-  color: rgb(245, 182, 24);
+  color: rgb(244, 177, 7);
 }
 .navbar .navbar-nav .nav-link:hover:hover {
   transform: scale(0.9);
 }
 .navbar .dropdown-toggle {
-  color: rgb(91, 1, 91);
+  color: rgb(3, 10, 132);
 }
 .navbar .dropdown-toggle:hover {
-  color: rgb(245, 182, 24);
+  color: rgb(244, 177, 7);
 }
 
 .dropdown-menu {
   background: #fff;
-  color: #222;
+  color: rgb(3, 10, 132);
   border: 1px solid #eee;
 }
 .dropdown-menu .dropdown-item {
-  color: rgb(91, 1, 91);
+  color: rgb(3, 10, 132);
   transition: background 0.2s, color 0.2s;
 }
 .dropdown-menu .dropdown-item:hover {
-  background: #000000;
-  color: goldenrod;
+  background: rgb(3, 10, 132);
+  color: rgb(244, 177, 7);
 }
 
 .form-control {
   background: rgb(243, 233, 213);
-  color: rgb(91, 1, 91);
+  color: rgb(3, 10, 132);
   border: 1px solid white;
 }
 
 .btn-search {
-  background: rgb(91, 1, 91);
+  background: rgb(3, 10, 132);
   color: white;
   border: 1px solid white;
   margin-left: 10px;
   transition: background 0.2s, color 0.2s, border-color 0.2s;
 }
 .btn-search:hover {
-  background: goldenrod;
+  background: rgb(244, 177, 7);
   color: white;
-  border-color: rgb(91, 1, 91);
+  border-color: rgb(3, 10, 132);
 }
 
+/*font-family: "Nunito", sans-serif;*/
 body {
   margin: 0;
   padding: 0;
-  background: rgb(109, 7, 132);
+  background: rgb(3, 10, 132);
   color: black;
+  font-family: "Nunito", sans-serif;
 }
 
 .container {
   max-width: 800px;
   margin: 60px auto;
-  background: rgb(236, 220, 198);
+  background: white;
   box-shadow: 10 15px 8px rgba(160, 48, 48, 0.1);
   border-radius: 6px;
   padding: 32px;
 }
 
 .button2 {
-  background: rgb(71, 1, 71);
+  background: rgb(3, 10, 132);
   color: white;
   border: none;
   padding: 10px 22px;
@@ -131,11 +134,25 @@ body {
   cursor: pointer;
 }
 .button2:hover {
-  background: goldenrod;
+  background: rgb(244, 177, 7);
 }
 
-h1, h2, h3, h4, h5 {
-  color: rgb(112, 2, 112);
+h1, h2, h3, h4 {
+  color: rgb(3, 10, 132);
+}
+h1:hover, h2:hover, h3:hover, h4:hover {
+  background-color: rgb(244, 177, 7);
+}
+
+.title-five {
+  color: rgb(244, 177, 7);
+}
+.title-five:hover {
+  background-color: rgb(3, 10, 132);
+}
+
+.contact-link {
+  color: rgb(3, 10, 132);
 }
 
 .p-aboutus {
@@ -151,12 +168,12 @@ h1, h2, h3, h4, h5 {
   width: 100%;
   padding: 12px;
   border-radius: 6px;
-  border: 1px solid rgb(104, 3, 104);
+  border: 1px solid rgb(3, 10, 132);
   margin-bottom: 14px;
   font-size: 1em;
 }
 .contact-section form button {
-  background: rgb(104, 3, 104);
+  background: rgb(3, 10, 132);
   color: white;
   border: none;
   padding: 10px 22px;
@@ -165,14 +182,14 @@ h1, h2, h3, h4, h5 {
   transition: background 0.2s;
 }
 .contact-section form button:hover {
-  background: goldenrod;
+  background: rgb(244, 177, 7);
 }
 
 .gallery-section img {
   width: 120px;
   margin: 6px;
   border-radius: 8px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 1px 4px rgb(3, 10, 132);
 }
 
 .events-section ul {
@@ -180,23 +197,14 @@ h1, h2, h3, h4, h5 {
 }
 
 .p-footer {
-  background-color: rgb(251, 230, 191);
-  color: rgb(95, 3, 95);
+  background-color: rgb(3, 10, 132);
+  color: goldenrod;
   font-size: 16px;
   text-align: center;
   padding: 20px 0;
   border-radius: 25px;
   bottom: 0;
   width: 100;
-}
-
-img {
-  width: 3%;
-  transition: 0.5s;
-  object-fit: cover;
-}
-img:hover {
-  transform: scale(1.5);
 }
 
 /*# sourceMappingURL=style.css.map */
