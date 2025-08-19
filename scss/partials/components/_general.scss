@@ -19,20 +19,6 @@ body {
   padding: 32px;
 }
 
-.button2{
-  background: rgb(3, 10, 132);
-  color: white;
-  border: none;
-  padding: 10px 22px;
-  border-radius: 6px;
-  cursor: pointer;
-
-  &:hover {
-  background: variables.$hover-color;
-   }
-  
-}
-
 h1, h2, h3, h4 {
   color: variables.$title-color;
   &:hover {
@@ -71,22 +57,8 @@ h1, h2, h3, h4 {
       margin-bottom: 14px;
       font-size: 1em;
     }
-    button {
-      background: rgb(3, 10, 132);
-      color: white;
-      border: none;
-      padding: 10px 22px;
-      border-radius: 6px;
-      cursor: pointer;
-      transition: background 0.2s;
-
-      &:hover {
-        background: variables.$hover-color;
-      }
-    }
   }
 }
-
 .gallery-section {
   img {
     width: 120px;

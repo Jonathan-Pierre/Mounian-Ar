@@ -1,0 +1,27 @@
+@use "../utilities/variables";
+button {
+      background: rgb(3, 10, 132);
+      color: white;
+      border: none;
+      padding: 10px 22px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.2s;
+
+      &:hover {
+        background: variables.$hover-color;
+      }
+    }
+
+.button2{
+  background: rgb(3, 10, 132);
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 6px;
+  cursor: pointer;
+
+  &:hover {
+  background: variables.$hover-color;
+   }
+  }

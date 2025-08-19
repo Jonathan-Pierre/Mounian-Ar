@@ -125,18 +125,6 @@ body {
   padding: 32px;
 }
 
-.button2 {
-  background: rgb(3, 10, 132);
-  color: white;
-  border: none;
-  padding: 10px 22px;
-  border-radius: 6px;
-  cursor: pointer;
-}
-.button2:hover {
-  background: rgb(244, 177, 7);
-}
-
 h1, h2, h3, h4 {
   color: rgb(3, 10, 132);
 }
@@ -172,18 +160,6 @@ h1:hover, h2:hover, h3:hover, h4:hover {
   margin-bottom: 14px;
   font-size: 1em;
 }
-.contact-section form button {
-  background: rgb(3, 10, 132);
-  color: white;
-  border: none;
-  padding: 10px 22px;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: background 0.2s;
-}
-.contact-section form button:hover {
-  background: rgb(244, 177, 7);
-}
 
 .gallery-section img {
   width: 120px;
@@ -205,6 +181,31 @@ h1:hover, h2:hover, h3:hover, h4:hover {
   border-radius: 25px;
   bottom: 0;
   width: 100;
+}
+
+button {
+  background: rgb(3, 10, 132);
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: rgb(244, 177, 7);
+}
+
+.button2 {
+  background: rgb(3, 10, 132);
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.button2:hover {
+  background: rgb(244, 177, 7);
 }
 
 /*# sourceMappingURL=style.css.map */
