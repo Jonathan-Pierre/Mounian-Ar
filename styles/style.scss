@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(8, 8, 8);
+}
+
+li {
+  list-style-type: none;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.p-aboutus {
+  color: black;
+  font-size: 23px;
+}
+
+.contact-section {
+  font-size: 1em;
+}
+
+.navbar {
+  background: rgb(3, 10, 132);
+  list-style: none;
+}
+.navbar .navbar-brand {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-right: 2rem;
+  color: rgb(91, 1, 91);
+  transition: color 0.2s;
+}
+.navbar .navbar-brand:hover {
+  color: rgb(3, 10, 132);
+}
+.navbar .navbar-brand:hover:hover {
+  transform: scale(0.9);
+}
+.navbar img {
+  width: 3%;
+  transition: 0.5s;
+  object-fit: cover;
+}
+.navbar img:hover {
+  transform: scale(1.5);
+}
+.navbar .navbar-nav .nav-link {
+  color: rgb(3, 10, 132);
+  transition: color 0.3s;
+}
+.navbar .navbar-nav .nav-link.active {
+  font-weight: 700;
+  opacity: 1;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: rgb(244, 177, 7);
+}
+.navbar .navbar-nav .nav-link:hover:hover {
+  transform: scale(0.9);
+}
+.navbar .dropdown-toggle {
+  color: rgb(3, 10, 132);
+}
+.navbar .dropdown-toggle:hover {
+  color: rgb(244, 177, 7);
+}
+
+.dropdown-menu {
+  background: #fff;
+  color: rgb(3, 10, 132);
+  border: 1px solid #eee;
+}
+.dropdown-menu .dropdown-item {
+  color: rgb(3, 10, 132);
+  transition: background 0.2s, color 0.2s;
+}
+.dropdown-menu .dropdown-item:hover {
+  background: rgb(3, 10, 132);
+  color: rgb(244, 177, 7);
+}
+
+.form-control {
+  background: rgb(243, 233, 213);
+  color: rgb(3, 10, 132);
+  border: 1px solid white;
+}
+
+.btn-search {
+  background: rgb(3, 10, 132);
+  color: white;
+  border: 1px solid white;
+  margin-left: 10px;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+.btn-search:hover {
+  background: rgb(244, 177, 7);
+  color: white;
+  border-color: rgb(3, 10, 132);
+}
+
+/*font-family: "Nunito", sans-serif;*/
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(3, 10, 132);
+  color: black;
+  font-family: "Nunito", sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 60px auto;
+  background: white;
+  box-shadow: 10 15px 8px rgba(160, 48, 48, 0.1);
+  border-radius: 6px;
+  padding: 32px;
+}
+
+h1, h2, h3, h4 {
+  color: rgb(3, 10, 132);
+}
+h1:hover, h2:hover, h3:hover, h4:hover {
+  background-color: rgb(244, 177, 7);
+}
+
+.title-five {
+  color: rgb(244, 177, 7);
+}
+.title-five:hover {
+  background-color: rgb(3, 10, 132);
+}
+
+.contact-link {
+  color: blue;
+}
+
+.p-aboutus {
+  color: #000000;
+  font-size: 16px;
+}
+
+.contact-section form label {
+  display: block;
+  margin-bottom: 12px;
+}
+.contact-section form input, .contact-section form textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid rgb(3, 10, 132);
+  margin-bottom: 14px;
+  font-size: 1em;
+}
+
+.gallery-section img {
+  width: 120px;
+  margin: 6px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgb(3, 10, 132);
+}
+
+.events-section ul {
+  padding-left: 20px;
+}
+
+.p-footer {
+  background-color: rgb(3, 10, 132);
+  color: goldenrod;
+  font-size: 16px;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 25px;
+  bottom: 0;
+  width: 100;
+}
+
+button {
+  background: rgb(3, 10, 132);
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: rgb(244, 177, 7);
+}
+
+.button2 {
+  background: rgb(3, 10, 132);
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.button2:hover {
+  background: rgb(244, 177, 7);
+}
+
+/*# sourceMappingURL=style.scss.map */
